@@ -1,0 +1,99 @@
+body{
+	background-image:url(img/music.jpg); 
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+.bigBox {
+	width: 50%;
+	height: 500px;
+	position: relative;
+	left: 50%;
+	top: 190px;
+}
+
+
+.container {
+	width: 350px;
+	border-radius: 30px;
+	position: relative;
+	left: 25%;
+	top: 4%;
+	transition: .5s;
+}
+
+.container:hover {
+	box-shadow: 6px 6px 8px #000;
+	transform: scale(0.99);
+}
+
+.forBefor::before {
+	content: "";
+	width: 100px;
+	height: 55px;
+	border-radius: 45%;
+	position: absolute;
+	left: -30%;
+	transition: .5s;
+}
+
+.forBefor:hover::before{
+	box-shadow: 4px 4px 6px #000;
+}
+
+
+
+.forAfter::after {
+	content: "";
+	width: 100px;
+	height: 300px;
+	font-size: 40px;
+	position: absolute;
+	left: 305px;
+	top: 2px;
+}
+
+.song1::before {
+	content: "";
+	background-image: url(img/gipsykings.jpg);
+	background-size: contain;
+}
+
+.song2::before {
+	content: "";
+	background-image: url(img/Ghostly.jpg);
+	background-size: contain;
+}
+
+.song3::before {
+	content: "";
+	background-image: url(img/Ghostly.jpg);
+	background-size: contain;
+}
+
+
+
+.song4::before {
+	content: "";
+	background-image: url(img/LP.jpg);
+	background-size: contain;
+}
+
+.song5::before {
+	content: "";
+	background-image: url(img/Rhye.jpg);
+	background-size: contain;
+}
+
+.song6::before {
+	content: "";
+	background-image: url(img/sia.jpg);
+	background-size: contain;
+}
+
+.song7::before {
+	content: "";
+	background-image: url(img/zemfira.jpg);
+	background-size: contain;
+}
